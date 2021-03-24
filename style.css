@@ -126,3 +126,12 @@ h1 {
 .content-row a:link {
   text-decoration: none;
 }
+.content-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
