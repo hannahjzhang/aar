@@ -22,7 +22,7 @@ h1 {
 
 /* background color for navigatioin bar */
 .topnav {
-  background-color: #FAFAFA;
+  background-color: #f0f2f5;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -74,4 +74,55 @@ h1 {
     display: block;
     text-align: left;
   }
+}
+
+/* overall container for the content of a page */
+.content-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+/* styling the blocks of content on the homepage */
+.content-row {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 2em;
+     -moz-column-gap: 2em;
+          column-gap: 2em;  
+}
+.content-row a {
+  display: block;
+  max-width: 676px;
+  margin-bottom: 30px;
+  /* margin: 0 auto 25px auto; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-radius: 25px;
+  color: black;
+  background-color: #f0f2f5;
+  box-shadow: 5px 5px #c5d2ed;
+}
+.content-row a:hover {
+  cursor: pointer;
+  color: black;
+  position: relative;
+  box-shadow: 5px 5px #b8b8b8;
+  transform: scale(1.01);
+}
+.content-row a h3 {
+  text-align: center;
+}
+.content-row a p {
+  text-align: center;
+}
+.content-row a:link {
+  text-decoration: none;
 }
