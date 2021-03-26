@@ -184,3 +184,47 @@ td {
 tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
+
+/* footer and footer content styling */
+.footer {
+  background-color: #4F7CFE;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  text-align: left;
+  color: white;
+}
+.footer a {
+  text-align: left;
+  color: white;
+}
+.footer a:hover {
+  color: aliceblue;
+}
+.socials {
+  margin-top: 0px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+.socials a:hover {
+  color: aliceblue;
+}
+.socials img {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+}
+.socials:hover img {
+  transform: scale(1.1);
+}
