@@ -76,7 +76,7 @@ h1 {
   }
 }
 
-/* overall container for the content of a page */
+/* overall container for the content of the homepage */
 .content-container {
   padding-left: 40px;
   padding-right: 40px;
@@ -134,4 +134,53 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+}
+
+/* smaller overall container for content-heavy pages */
+.small-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: white;
+}
+.small-container hr {
+  width: 1065px;
+  height:0;
+  border-bottom: 1px;
+}
+.small-container h3 {
+  color: black;
+}
+.small-container p {
+  color: #383838;
+}
+.small-container table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* styling for the literary review breakdown table */
+table {
+  padding: 8px;
+  width: 100%;
+}
+th {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ddd;
+}
+td {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #ddd;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
