@@ -242,8 +242,11 @@ tr:nth-child(odd) {
 }
 
 /* three columns in analysis section */
+.column-container {
+  background-color: white;
+}
 /* create three equal columns that floats next to each other */
-.column {
+.column-container .column {
   float: left;
   width: 31%;
   padding: 20px;
@@ -252,8 +255,54 @@ tr:nth-child(odd) {
   border-radius: 10px;
 }
 /* clear floats after the columns */
-.row:after {
+.column-container .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* column styling for the logos/acknowledgements on homepage */
+.logo-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+}
+
+.logo-container .column {
+  float: left;
+  padding: 20px;
+}
+
+.logo-container .left {
+  width: 35%;
+}
+
+.logo-container .right {
+  width: 65%;
+}
+
+.logo-container.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo-container .aar {
+  width: 25%;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.logo-container .cce {
+  width: 35%;
+  margin-left: 10px;
+}
+
+.logo-container p {
+  font-size: 21px;
 }
