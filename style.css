@@ -46,8 +46,8 @@
 }
 /* hover changes */
 .topnav a:hover {
-  background-color: #c5d2ed;
-  color: #3C3C3C;
+  color: white;
+  background-color: #3C3C3C;
   text-decoration: none;
 }
 /* active page styling */
@@ -105,26 +105,32 @@
 .content-row a {
   display: block;
   max-width: 676px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
   /* margin: 0 auto 25px auto; */
   padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 35px;
-  padding-left: 35px;
-  border-radius: 25px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
   color: black;
-  background-color: #f0f2f5;
-  box-shadow: 5px 5px #c5d2ed;
+  background-color: #f7f7f7;
+  border: 1px solid;
+  border-color: #e3e3e3;
+  box-shadow: 2px 2px 5px #c9c9c9;
 }
 .content-row a:hover {
   cursor: pointer;
   color: black;
   position: relative;
-  box-shadow: 5px 5px #b8b8b8;
-  transform: scale(1.01);
+  /* box-shadow: 2px 2px #3c3d3d; */
+  /* transform: scale(1.01); */
 }
 .content-row a h3 {
   text-align: center;
+  font-size: 25px;
+  color: #3760c4;
 }
 .content-row a p {
   text-align: center;
@@ -265,10 +271,9 @@ tr:nth-child(odd) {
 .logo-container {
   padding-left: 40px;
   padding-right: 40px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
   background-color: ghostwhite;
   border-radius: 10px;
 }
