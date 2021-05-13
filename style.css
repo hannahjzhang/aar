@@ -3,7 +3,7 @@
 
 /* header at the top of every page */
 .header {
-  background-color: #4F7CFE;
+  background-color: #5999ff;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -28,7 +28,8 @@
 
 /* background color for navigatioin bar */
 .topnav {
-  background-color: #f0f2f5;
+  background-color: #456180;
+  color: white;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -37,7 +38,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #3C3C3C;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -46,14 +47,14 @@
 }
 /* hover changes */
 .topnav a:hover {
-  color: white;
-  background-color: #3C3C3C;
+  color: #3C3C3C;
+  background-color: #f0f2f5;
   text-decoration: none;
 }
 /* active page styling */
 .topnav a.active {
-  background-color: #3C3C3C;
-  color: white;
+  background-color: #f0f2f5;
+  color: #3C3C3C;
 }
 /* closee topnav on small screens */
 .topnav .icon {
@@ -94,6 +95,7 @@
 }
 
 /* styling the blocks of content on the homepage */
+/*
 .content-row {
   -webkit-column-count: 3;
      -moz-column-count: 3;
@@ -102,7 +104,28 @@
      -moz-column-gap: 2em;
           column-gap: 2em;  
 }
-.content-row a {
+*/
+
+/* three columns in analysis section */
+.home-column-container {
+  background-color: white;
+}
+/* create three equal columns that floats next to each other */
+.home-column-container .column {
+  float: left;
+  width: 31%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+/* clear floats after the columns */
+.home-column-container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-column-container a {
   display: block;
   max-width: 676px;
   margin-bottom: 40px;
@@ -120,25 +143,25 @@
   border-color: #e3e3e3;
   box-shadow: 2px 2px 5px #c9c9c9;
 }
-.content-row a:hover {
+.home-column-container a:hover {
   cursor: pointer;
   color: black;
   position: relative;
   /* box-shadow: 2px 2px #3c3d3d; */
   /* transform: scale(1.01); */
 }
-.content-row a h3 {
+.home-column-container a h3 {
   text-align: center;
   font-size: 25px;
-  color: #3760c4;
+  color: #456180;
 }
-.content-row a p {
+.home-column-container a p {
   text-align: center;
 }
-.content-row a:link {
+.home-column-container a:link {
   text-decoration: none;
 }
-.content-row img {
+.home-column-container img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -199,7 +222,7 @@ tr:nth-child(odd) {
 
 /* footer and footer content styling */
 .footer {
-  background-color: #4F7CFE;
+  background-color: #5999ff;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
