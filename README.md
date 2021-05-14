@@ -1,6 +1,6 @@
 # Advanced Authentic Research Project
 Project Topic: The Role of Websites in Local Businesses
-
+## Project Breakdown
 Section    | Link   | Content |
 | :--- | :---- | :-------------- | 
 Home  | [Homepage](https://hannahjzhang.github.io/aar/) | Links to  sub-sections, the complete paper, & the showcase presentation
@@ -11,5 +11,5 @@ Analysis   | [Deductions](https://hannahjzhang.github.io/aar/pages/analysis.html
 Implications   | [Future](https://hannahjzhang.github.io/aar/pages/implications.html)  | Meaning in a broader context and next steps to consider
 References  | [Sources](https://hannahjzhang.github.io/aar/pages/references.html) | Sources used throughout the project
 
-Demo: <br>
+## Demo
 ![Home Page](images/demo.png "Home Page")
