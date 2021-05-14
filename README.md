@@ -10,3 +10,6 @@ Findings   | [Results](https://hannahjzhang.github.io/aar/pages/findings.html)  
 Analysis   | [Deductions](https://hannahjzhang.github.io/aar/pages/analysis.html)  | Categorizing results, recommendations for websites
 Implications   | [Future](https://hannahjzhang.github.io/aar/pages/implications.html)  | Meaning in a broader context and next steps to consider
 References  | [Sources](https://hannahjzhang.github.io/aar/pages/references.html) | Sources used throughout the project
+
+Demo: <br>
+![Home Page](images/demo.png "Home Page")
