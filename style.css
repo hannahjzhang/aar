@@ -110,7 +110,6 @@
 .home-button-container {
   background-color: white;
 }
-/* create three equal columns that floats next to each other */
 .home-button-container .column {
   float: left;
   width: 48%;
@@ -118,13 +117,11 @@
   margin-right: 10px;
   background-color: white;
 }
-/* clear floats after the columns */
 .home-button-container .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .home-button-container a {
   display: block;
   max-width: 676px;
@@ -166,7 +163,6 @@
 .home-column-container {
   background-color: white;
 }
-/* create three equal columns that floats next to each other */
 .home-column-container .column {
   float: left;
   width: 31%;
@@ -174,13 +170,11 @@
   margin-right: 10px;
   background-color: white;
 }
-/* clear floats after the columns */
 .home-column-container .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .home-column-container a {
   display: block;
   max-width: 676px;
@@ -356,37 +350,30 @@ tr:nth-child(odd) {
   background-color: ghostwhite;
   border-radius: 10px;
 }
-
 .logo-container .column {
   float: left;
   padding: 20px;
 }
-
 .logo-container .left {
   width: 35%;
 }
-
 .logo-container .right {
   width: 65%;
 }
-
 .logo-container.row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .logo-container .aar {
   width: 25%;
   margin-left: 20px;
   margin-right: 50px;
 }
-
 .logo-container .cce {
   width: 35%;
   margin-left: 10px;
 }
-
 .logo-container p {
   font-size: 21px;
 }
